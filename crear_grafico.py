@@ -1,7 +1,7 @@
 import pandas as pd
-import matplotlib.pyplot as plt  # Esta es la herramienta de dibujo
+import matplotlib.pyplot as plt
 
-# 1. Cargar los datos (usamos la misma ruta que te funcionó antes)
+# 1. Cargar los datos (usamos la misma ruta que funcionó antes)
 ruta_archivo = "Datos/promesas.csv"
 df = pd.read_csv(ruta_archivo)
 
@@ -21,7 +21,7 @@ plt.xlabel('Jugador', fontsize=12)
 plt.ylabel('Valor (M€)', fontsize=12)
 plt.grid(axis='y', linestyle='--', alpha=0.7)  # Líneas horizontales de guía
 
-# 4. GUARDAR el gráfico en tu carpeta "Graficos"
+# 4. GUARDAR el gráfico en la carpeta "Graficos"
 plt.savefig('Graficos/valor_mercado_promesas.png', dpi=300, bbox_inches='tight')
 
 print("--- GRÁFICO GENERADO CON ÉXITO ---")

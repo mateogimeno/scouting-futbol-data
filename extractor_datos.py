@@ -2,7 +2,6 @@ import ScraperFC
 import pandas as pd
 
 # 1. Inicializar el extractor para la página FBref
-# FBref es como la biblia de los datos gratuitos de fútbol
 scraper = ScraperFC.FBref()
 
 print("Buscando datos en internet... (esto puede tardar un poquito)")
@@ -15,7 +14,7 @@ tabla = scraper.get_season_stats("Argentina", "2024", "Standard Stats")
 print("--- DATOS EXTRAÍDOS CON ÉXITO ---")
 print(tabla[['Squad', 'MP', 'W', 'D', 'L', 'Pts']].head(10)) 
 
-# 4. GUARDARLO en tu carpeta de Datos para usarlo después
+# 4. GUARDARLO en la carpeta de Datos para usarlo después
 tabla.to_csv("Datos/tabla_argentina_real.csv", index=False)
 
 print("\nArchivo 'tabla_argentina_real.csv' guardado en tu carpeta Datos.")

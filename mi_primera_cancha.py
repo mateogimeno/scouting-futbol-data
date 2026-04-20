@@ -14,6 +14,6 @@ cancha.scatter(105, 40, s=500, c='red', edgecolors='black', ax=ax, label='Gol de
 plt.title('Mi primer mapa de tiros con Python FC', fontsize=20)
 plt.legend()
 
-# 4. Lo guardamos en tu carpeta de Gráficos
+# 4. Lo guardamos en la carpeta de Gráficos
 plt.savefig('Graficos/mi_primera_cancha.png')
 print("¡Cancha generada en la carpeta Graficos!")

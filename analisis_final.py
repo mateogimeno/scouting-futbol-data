@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 1. Cargamos el CSV que bajaste de Google Sheets
+# 1. Cargamos el CSV
 ruta = "Datos/tabla_manual.csv.csv"
 
 try:
@@ -18,7 +18,7 @@ try:
     col_equipo = 'Squad' 
     col_puntos = 'Pts'
 
-    # 3. ¡Hacemos un gráfico de barras real!
+    # 3. Hacemos un gráfico de barras real
     plt.figure(figsize=(12, 6))
     # Buscá esta línea en tu código y reemplazala:
     plt.bar(df[col_equipo].head(10), df[col_puntos].head(10), color='#034694', edgecolor='white')

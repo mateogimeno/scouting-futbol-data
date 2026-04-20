@@ -16,7 +16,7 @@ try:
     # Limpiamos un poco los nombres de las columnas si vienen raros
     print(df[['Equipo', 'PJ', 'PG', 'PE', 'PP', 'Ptos']].head(10))
 
-    # 3. Guardar en tu carpeta
+    # 3. Guardar en la carpeta
     df.to_csv("Datos/tabla_espana_directa.csv", index=False)
     print("\n¡Listo! Archivo guardado en Datos/tabla_espana_directa.csv")
 

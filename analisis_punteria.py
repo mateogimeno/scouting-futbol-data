@@ -9,7 +9,7 @@ try:
     df = pd.read_csv(ruta)
 
     # --- MÉTODO INFALIBLE: POSICIÓN DE COLUMNAS ---
-    # Según tu lista, las posiciones son:
+    # Según la lista, las posiciones son:
     # Columna 1 (index 1) -> Jugador
     # Columna 8 (index 8) -> Goles
     # Columna 10 (index 10) -> Remates al arco (SoT)

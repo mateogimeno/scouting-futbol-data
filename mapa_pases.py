@@ -10,7 +10,6 @@ df = pd.read_csv(ruta_datos)
 cancha = Pitch(pitch_type='statsbomb', pitch_color='#2c3e50', line_color='#ecf0f1', stripe=True)
 fig, ax = cancha.draw(figsize=(12, 8))
 
-# --- FILTRO MÁGICO ---
 # Le decimos: "Creá una lista nueva que SOLO tenga los datos de Echeverri"
 solo_diablito = df[df['Nombre'] == 'Claudio Echeverri']
 

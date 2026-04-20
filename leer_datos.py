@@ -1,4 +1,4 @@
-import pandas as pd  # Importamos la herramienta para leer tablas
+import pandas as pd
 
 # Le decimos a Python dónde está el archivo de datos
 # Cambiamos la ruta para que sea directa desde donde estás parado
